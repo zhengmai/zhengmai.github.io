@@ -1,0 +1,41 @@
+@media(min-width:768px){
+    .container1{
+        display:flex;
+        flex-direction: column;
+    }
+    .container2{
+        display:flex;
+        justify-content:space-between;
+    }
+
+}
+
+.container1 div,.container2 div{
+border:1px #ccc solid;
+padding:10px;
+
+}
+/*.container1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container2{
+    display:flex;
+    justify-content:space-between;
+}
+*/ 
+
+.container2box{
+    flex-basis:27%;
+}
+body{
+    background-color: bisque;
+}
+.Box1{
+    color:purple;
+    text-shadow:2px 2px green;
+}
+.WE{
+    color:purple;
+}
